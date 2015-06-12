@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/red" />
+</shape><!-- From: file:/Users/Song/Desktop/RPG-master/rpggame/app/src/main/res/drawable/pressed.xml -->

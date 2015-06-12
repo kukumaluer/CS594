@@ -82,7 +82,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_centerVertical="true"
                                     android:paddingTop="5dp"
-                                    android:text= "Hp: 100"
+                                    android:text= "     Hp: 100"
                                     android:textColor="@color/yellow"
                                     android:textSize="20sp" />
 
@@ -305,7 +305,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dip"
                         android:layout_weight="1"
-                        android:text=""
+                        android:text="     "
                         android:textColor="#ffffff"
                          />
                     <TextView
@@ -314,7 +314,7 @@
                         android:layout_height="0dip"
                         android:layout_weight="1"
                         android:textColor="#ffffff"
-                        android:text=""
+                        android:text="     "
                         />
                     <TextView
                         android:id="@+id/msg3"
@@ -322,14 +322,14 @@
                         android:layout_height="0dip"
                         android:layout_weight="1"
                         android:textColor="#ffffff"
-                        android:text=""
+                        android:text="     "
                         />
                     <TextView
                         android:id="@+id/msg4"
                         android:layout_width="match_parent"
                         android:layout_height="0dip"
                         android:layout_weight="1"
-                        android:text=""
+                        android:text="     "
                          />
 
 
@@ -407,7 +407,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dip"
                         android:layout_weight="1"
-                        android:text="M.Sargent Jr."
+                        android:text="  M.Sargent Jr."
                         android:textColor="#ffffff"
                         />
 
@@ -416,7 +416,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dip"
                         android:layout_weight="1"
-                        android:text="Hp:"
+                        android:text="          Hp:"
                         android:textColor="#ffffff"
                         />
                     <TextView
@@ -424,7 +424,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dip"
                         android:layout_weight="1"
-                        android:text="Level:"
+                        android:text="       Level:"
                         android:textColor="#ffffff"
                         />
                     <TextView
@@ -432,7 +432,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dip"
                         android:layout_weight="1"
-                        android:text="gold:"
+                        android:text="       Gold:"
                         android:textColor="#ffffff"
                         />
 

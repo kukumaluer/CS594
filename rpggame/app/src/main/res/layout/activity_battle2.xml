@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
 
     tools:context=".battle"
     android:orientation="horizontal"
@@ -25,7 +26,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
-                    android:background="@color/green"
+                    android:background="@drawable/back2"
                     android:weightSum="10"
                     >
                     <RelativeLayout
@@ -81,7 +82,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_centerVertical="true"
                                     android:paddingTop="5dp"
-                                    android:text= "Hp: 100"
+                                    android:text= "    Hp: 100"
                                     android:textColor="@color/yellow"
                                     android:textSize="20sp" />
 
@@ -287,7 +288,7 @@
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
                     android:weightSum="4"
-                    android:background="@color/yellow"
+                    android:background="@drawable/ui"
                     >
 
                     <TextView
@@ -304,6 +305,8 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="Paper"
+                        android:textColor="@color/yellow"
+                        android:background="@drawable/button_pressed"
                         />
                     <Button
                         android:id="@+id/scissor"
@@ -311,6 +314,8 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="Scissor"
+                        android:textColor="@color/yellow"
+                        android:background="@drawable/button_pressed"
                         />
 
 
@@ -343,7 +348,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:weightSum="10"
-            android:background="@color/yellow"
+            android:background="#000000"
 
             >
             <RelativeLayout
@@ -363,7 +368,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_centerVertical="true"
-                        android:background="@drawable/fatboy"
+                        android:background="@drawable/dragon"
 
 
                         />
@@ -382,7 +387,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:weightSum="4"
-                    android:background="@color/pink"
+                    android:background="@drawable/ui"
                     >
                     <TextView
                         android:id="@+id/bar1"
@@ -397,21 +402,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dip"
                         android:layout_weight="1"
-                        android:text="Hp:"
+                        android:text="        Hp:"
                         />
                     <TextView
                         android:id="@+id/bar3"
                         android:layout_width="match_parent"
                         android:layout_height="0dip"
                         android:layout_weight="1"
-                        android:text="Level:"
+                        android:text="    Level:"
                         />
                     <TextView
                         android:id="@+id/bar4"
                         android:layout_width="match_parent"
                         android:layout_height="0dip"
                         android:layout_weight="1"
-                        android:text="gold:"
+                        android:text="    Gold:"
                         />
 
                 </LinearLayout>
@@ -429,7 +434,7 @@
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
                     android:weightSum="4"
-                    android:background="@color/yellow"
+                    android:background="#000000"
                     >
 
                 <Button
@@ -438,6 +443,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="4"
                     android:text="ROCK"
+                    android:textColor="@color/yellow"
+                    android:background="@drawable/button_pressed"
                     />
 
                 </LinearLayout>

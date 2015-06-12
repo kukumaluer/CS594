@@ -492,7 +492,7 @@
                         android:layout_height="0dip"
                         android:layout_weight="1"
                         android:drawableLeft="@drawable/coin"
-                        android:text="gold:"
+                        android:text="Gold:"
                         android:textColor="#ffffff"
                         />
 
